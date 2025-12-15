@@ -203,3 +203,9 @@ In case of failed implementations:
 4. Implement corrective measures before retrying
 5. Perform additional validation for similar changes
 6. Update guardrails to prevent similar issues in the future
+
+## Progressive Path Philosophy
+- Start small, validate empirically, evolve incrementally
+- Never assume - always validate against mission requirements
+- Preserve full context across all implementation steps
+- Block completion bias by tracking validation cycles
